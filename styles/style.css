@@ -1,0 +1,269 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 240px;
+
+}
+
+.logo-name {
+
+    text-align: center;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name {
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.G {
+    color: #FF42A5;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+.item {
+    padding: 30px;
+}
+
+#follow-us {
+    background-color: gray;
+    border-radius: 10px;
+
+}
+
+.fa-youtube {
+    color: red;
+    padding: 3px;
+}
+
+/* HEADING SECTION START */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading-img {
+    background-image: url('../images/Group\ 14.png');
+    width: 901px;
+    height: 700px;
+}
+
+.heading-description {
+    padding: 150px 240px;
+
+}
+
+.h-4 {
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.h-1 {
+    margin: 0;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #841649;
+}
+
+.signIn,
+.know-more {
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+}
+
+.know-more {
+    display: block;
+    margin: 10px;
+}
+
+.rogue {
+    background-color: #4EC5F7;
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+}
+
+
+.theme-img img {
+    width: 100%;
+    width: 901px;
+    height: 700px;
+}
+
+/* gamer */
+
+.gamer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    padding: 10px 240px;
+}
+
+.we-are-gamer {
+    color: #841649;
+    font-size: 2.8rem;
+}
+
+.purpose {
+    color: #534C64;
+    font-size: 1.5rem;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-games {
+    text-align: center;
+    margin: 2rem;
+}
+
+.funny {
+    color: #841649;
+}
+
+.game {
+    position: relative;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+}
+
+.hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    text-align: center;
+    opacity: 0;
+
+    transition: opacity 0.3s ease;
+
+}
+
+.game:hover .hover-content {
+    opacity: 1;
+}
+
+.hover-content i {
+    font-size: 48px;
+    color: white;
+    margin-top: 20%;
+}
+
+.hover-content span {
+    display: block;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+    .nav {
+
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+    }
+
+    /* heading */
+    .heading {
+        flex-direction: column;
+    }
+
+    .heading-description {
+        margin-left: 50px;
+    }
+
+    .heading-img img {
+        width: 100%;
+        height: 100%;
+        margin-left: 100px;
+
+    }
+
+    .theme-img img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .gamer img {
+        width: 100%;
+    }
+
+    .gamer {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 5px;
+        margin-left: 100px;
+
+        background: white;
+
+    }
+
+    .games {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        padding: 0;
+        padding-right: 50px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+
+    .heading {
+        flex-direction: column;
+    }
+
+    .gamer {
+        flex-direction: column;
+    }
+
+    .games {
+        flex-direction: column;
+    }
+}
