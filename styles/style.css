@@ -188,60 +188,85 @@
     margin-top: 10px;
 }
 
-.instantplay{
+.instantplay {
     display: flex;
     margin: auto;
     margin: auto;
 }
-.play-game{
+
+.play-game {
     text-align: center;
     margin: auto;
     padding: 40px;
 }
-.play-game span{
+
+.play-game span {
     color: #FF42A5;
 }
 
-.types-of-game{
+.types-of-game {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     text-align: center;
     margin: 30px 0;
 }
-.action:hover{
+
+.action:hover {
     border: 3px solid red;
     color: red;
     border-radius: 40px;
 }
-.action{
+
+.action {
     display: flex;
     padding: 10px;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     margin-top: 20px;
     text-align: center;
 }
 
-.story{
+.story {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     padding: 40px;
-   
+
 }
-a .fa-linkedin, a .fa-youtube,a .fa-tiktok{
-    color:white;
+
+a .fa-linkedin,
+a .fa-youtube,
+a .fa-tiktok {
+    color: white;
     font-size: 50px;
     padding: 20px;
 }
-.terms small{
-   padding: 20px;
+
+.terms small {
+    padding: 20px;
 }
-.bn{
-   padding-top: 20px; 
+
+.bn {
+    padding-top: 20px;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.corner-image {
+    position: absolute;
+    bottom: -20px;
+    right: -110px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+   
+}
+
 @media screen and (max-width:576px) {
     .nav {
 
@@ -294,36 +319,38 @@ a .fa-linkedin, a .fa-youtube,a .fa-tiktok{
         flex-direction: column;
     }
 
-    .instantplay{
-        
+    .instantplay {
+
         flex-direction: column;
     }
-    .instantplay img{
+
+    .instantplay img {
         max-width: 300px;
     }
 
-    .types-of-game{
+    .types-of-game {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin: 10px;
-        
-    } 
-    .action{
-        width: 40px;
-        height: 40px;
-    }     
-    
-    .story{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        padding: 40px;
-       
+
     }
 
-    .terms small{
+    .action {
+        width: 40px;
+        height: 40px;
+    }
+
+    .story {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+
+    }
+
+    .terms small {
         display: flex;
         flex-direction: column;
-     }
+    }
 }
 
 
@@ -351,26 +378,27 @@ a .fa-linkedin, a .fa-youtube,a .fa-tiktok{
         flex-direction: column;
     }
 
-    .instantplay{
-        
+    .instantplay {
+
         flex-direction: column;
     }
 
-    .types-of-game{
+    .types-of-game {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin: 10px;
         width: 100%;
-        
-    } 
-    .instantplay img{
+
+    }
+
+    .instantplay img {
         width: 300pxpx;
     }
 
-    .story{
+    .story {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 40px;
-       
+
     }
 }
