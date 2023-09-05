@@ -231,7 +231,7 @@ footer{
     padding: 40px;
    
 }
-.fa-linkedin,.fa-youtube,.fa-tiktok{
+a .fa-linkedin, a .fa-youtube,a .fa-tiktok{
     color:white;
     font-size: 50px;
     padding: 20px;
@@ -355,7 +355,22 @@ footer{
         
         flex-direction: column;
     }
-    /* .instantplay img{
-        width: 500px;
-    } */
+
+    .types-of-game{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 10px;
+        width: 100%;
+        
+    } 
+    .instantplay img{
+        width: 300pxpx;
+    }
+
+    .story{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 40px;
+       
+    }
 }
